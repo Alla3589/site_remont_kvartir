@@ -1,0 +1,95 @@
+html{
+box-sizing: border-box;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+h1,h2,h3,h4,h5,h6 {
+ margin: 0;
+}
+
+.container {
+width: 100%;
+max-width: 1440px;
+margin: 0 auto;
+padding: 0 120px;
+}
+body {
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+.block_menu {
+display: flex;
+justify-content: space-between;
+}
+
+.block_ul {
+display: flex;
+list-style: none;
+}
+.block_item {
+margin-right: 24px;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+height: 19px;
+}
+.number {
+padding-left: 46px;
+;
+}
+.icon_number {
+margin-left: -2px;
+}
+.number_tel {
+width: 160px;
+height: 21px;
+}
+.number_h4 {
+font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+width: 180px;
+height: 16px;
+white-space: nowrap;
+}
+
+.block_button {
+margin-left: 33px;
+width: 173px;
+height: 45px;
+left: 1027px;
+border-width: 1px;
+border-radius: 3px;
+border: 1px solid #6CAC3D;
+background-color:#FFFFFF ;
+}
+.button_h4 {
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #6CAC3D;
+width: 172px;
+height: 19px;
+padding-right: 15px;
+}
+span {
+color: blue;
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.icon {
+width: 126px;
+height: 44px;
+}
