@@ -11,6 +11,8 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css/main.css">
+    <script src="./js.js/jquery-3.7.1.min.js"></script>
+    <script src="./js.js/js.js"></script>
 
 </head>
 
@@ -48,12 +50,9 @@
                 <img src="./image/Rectangle 262.svg" alt="" class="rectangle">
                 <nav>
                     <ul class="main_ul">
-                        <li class="main_li">Ремонт квартир<img class="strela" src="./image/chevron-down.svg"
-                                alt="strela"></li>
-                        <li class="main_li">Дизайн интерьера<img class="strela" src="./image/chevron-down.svg"
-                                alt="strela"></li>
-                        <li class="main_li">Ремонт комнат<img class="strela" src="./image/chevron-down.svg"
-                                alt="strela"></li>
+                        <li class="main_li">Ремонт квартир</li>
+                        <li class="main_li">Дизайн интерьера</li>
+                        <li class="main_li">Ремонт комнат</li>
                         <li class="main_li_text">Дома и коттеджи</li>
                         <li class="main_li_text">Прочие услуги</li>
                     </ul>
@@ -69,7 +68,7 @@
                 <div class="main_left">
                     <div class="main_left_text">
                         <h1 class="h1">РЕМОНТ КВАРТИР В МОСКВЕ И МО</h1>
-                        <h2 class="main_text">от <span class="text_span">2450</span> руб/м2</h2>
+                        <h2 class="main_text">от <span class="text_span_1">2450</span> руб/м2</h2>
                     </div>
                     <div class="grid_block">
                         <div class="main_grid">
@@ -92,85 +91,88 @@
                     </div>
                 </div>
                 <div class="main_right">
-                    <div class="calculator">
-                        <h2 class="calculator_h2">РАССЧИТАЙТЕ СТОИМОСТЬ РЕМОНТА</h2>
-                        <div class="form_button">
-                            <form action="" class="right">
-                                <h3 class="form_h3">Вид ремонта:</h3>
-                                <input type="radio" class="calculator_input">
-                                <label for="text">Косметический</label>
-                            </form>
-                            <form action="" class="right">
-
-                                <input type="radio" class="calculator_input">
-                                <label for="text_1">Капитальный</label>
-                            </form>
-                            <form action="" class="right">
-
-                                <input type="radio" class="calculator_input">
-                                <label for="text_2">Под ключ</label>
-                            </form>
-                            <form action="" class="right">
-
-                                <input type="radio" class="calculator_input">
-                                <label for="text_3">Дизайнерский</label>
-                            </form>
-                        </div>
-                        <div class="f0rm_1">
-                            <form action="" class="right_1">
-                                <h3 class="form_h3">Тип вашей недвижимости:</h3>
-                                <input type="radio" class="calculator_input">
-                                <label for="text">Новостройка</label>
-                            </form>
-                            <form action="" class="right_1">
-
-                                <input type="radio" class="calculator_input">
-                                <label for="text">Вторичное жилье</label>
-                            </form>
-                        </div>
-                        <div class="form_2">
-                            <form action="" class="right_2">
-                                <h3 class="form_h3">Количество комнат</h3>
-                                <input type="radio" class="calculator_input">
-                                <label for="text">1</label>
-                                <input type="radio" class="calculator_input">
-                                <label for="text">2</label>
-                                <input type="radio" class="calculator_input">
-                                <label for="text">3</label>
-                                <input type="radio" class="calculator_input">
-                                <label for="text">4</label>
-                            </form>
-                        </div>
-                        <div class="form_3">
-                            <form action="" class="right_2">
-                                <h3 class="form_h3">Площадь, м2:</h3>
-                                <input type="range" class="calculator_input">
-                                <label for="text">35</label>
-                            </form>
-                        </div>
-                        <div class="sroc_text">
-                            <div class="sroc_left">
-                                <h3 class="sros_h3">Срок ремонта:</h3>
-                                <h3 class="sroc_h3_2">до 34 дней</h3>
+                    <div class="text_right">
+                        <h3 class="right_h3">РАССЧИТАЙТЕ СТОИМОСТЬ РЕМОНТА</h3>
+                    </div>
+                    <div class="calkulator">
+                        <form action="">Вид ремонта:</form>
+                        <div class="input_block">
+                            <div class="block_1">
+                                <input type="radio"><label for="">Косметический</label>
                             </div>
-                            <div class="sroc_right">
-                                <h3 class="sros_h3">Скидка составит:</h3>
-                                <h3 class="sroc_h3_2">23 765 руб</h3>
+                            <div class="block_1">
+                                <input type="radio"><label for="">Капитальный</label>
+                            </div>
+                            <div class="block_1">
+                                <input type="radio"><label for="">Под ключ</label>
+                            </div>
+                            <div class="block_1">
+                                <input type="radio"><label for="">Дизайнерский</label>
+                            </div>
+
+                        </div>
+                        <img src="./image/Rectangle 7.png" alt="">
+                        <form action="">Тип вашей недвижимости:</form>
+                        <div class="input_block_1">
+                            <div class="block_1">
+                                <input type="radio"><label for="">Новостройка</label>
+                            </div>
+                            <div class="block_1">
+                                <input type="radio"><label for="">Вторичное жилье</label>
+                            </div>
+
+                        </div>
+
+                        <img src="./image/Rectangle 7.png" alt="">
+                        <form action="">Количество комнат</form>
+                        <div class="input_block_2">
+                            <div class="block_2">
+                                <input type="radio"><label for="">1</label>
+                            </div>
+                            <div class="block_2">
+                                <input type="radio"><label for="">2</label>
+                            </div>
+                            <div class="block_2">
+                                <input type="radio"><label for="">3</label>
+                            </div>
+                            <div class="block_2">
+                                <input type="radio"><label for="">4</label>
                             </div>
                         </div>
-                        <div class="button_input">
-                            <h3 class="h3_list">Введите номер телефона</h3>
-                            <div class="button_input_left">
-                                <input type="tel" class="tel" value="+7">
+
+                        <img src="./image/Rectangle 7.png" alt="">
+                        <form action="">Площадь, м2:</form>
+                        <div class="input_block_3">
+                            <div class="block_3">
+                                <input class="block_3_input" type="range"><label for="">35</label>
                             </div>
-                            <div class="button_input_right">
-                                <button class="right_btn">
-                                    <h4 class="btn_h4">Заказать</h4>
+                        </div>
+                        <div class="input_block_4">
+                            <div class="block">
+                                <p class="block_4_p">Срок ремонта:</p>
+                                <span class="block_span">до 34 дней</span>
+                            </div>
+                            <div class="block">
+                                <p class="block_4_p">Скидка составит:</p>
+                                <span class="block_span">23 765 руб</span>
+                            </div>
+                        </div>
+                        <span class="block_5_span">Введите номер телефона</span>
+                        <div class="input_block_5">
+
+                            <div class="block_1">
+                                <input class="block_5_input" type="tel" placeholder="+7">
+                            </div>
+                            <div class="block_1">
+                                <button class="btn_5">
+                                    <span class="btn_span">Заказать</span>
                                 </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
+            </div>
     </section>
     <!--inform -->
     <section class="card">
@@ -906,8 +908,7 @@
 
         </div>
     </section>
-    <script src="./js.js/jquery-3.7.1.min.js"></script>
-    <script src="./js.js/js.js"></script>
+
 </body>
 
 </html>
